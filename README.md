@@ -266,12 +266,6 @@ export DEBUG=db2-rest-client:info
 export DEBUG=db2-rest-client:cli
 ```
 
-## Contribution
-
-We are welcoming contributors - feel free to report issues, request features and help us improve the tool.
-For code contribution please create first a feature request (issue - tagged *enhancement* or *bug*) then a PR request from your forked branch.
-Code needs to pass lint and UT automate checks before being reviewed.
-
 ## References
 
 * [IBM Db2 Warehouse on Cloud REST API](https://developer.ibm.com/static/site-id/85/api/db2whc-v3/)
