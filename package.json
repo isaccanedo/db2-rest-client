@@ -1,0 +1,58 @@
+{
+  "name": "db2-rest-client",
+  "version": "1.4.0",
+  "description": "Node.js Client for DB2 on Cloud (REST api) - administration, monitoring, exploring, loading data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/unit --recursive",
+    "coverage": "nyc npm test",
+    "integration": "mocha test/integration --recursive --timeout 50000",
+    "lint": "eslint index.js lib",
+    "db2-rest-client": "node ./bin/db2-rest-client.js"
+  },
+  "bin": {
+    "db2-rest-client": "./bin/db2-rest-client.js"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriantanasa/db2-rest-client.git"
+  },
+  "author": "Adrian Tanasa <adrian_tanasa@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriantanasa/db2-rest-client/issues"
+  },
+  "homepage": "https://github.com/adriantanasa/db2-rest-client#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^7.0.1",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.0",
+    "nyc": "^13.0.1",
+    "pre-commit": "^1.2.2",
+    "sinon": "^6.1.5"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "debug": "^3.1.0",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "keywords": [
+    "db2",
+    "db2 rest client",
+    "dashDb client",
+    "db2 client"
+  ],
+  "engines": {
+    "node": ">=8.11.0"
+  }
+}
