@@ -9,7 +9,7 @@ Node.js client for [IBM Db2 (Warehouse) on Cloud](#references) REST API (previou
 It is intended to be used for DevOps (administration, monitoring, data load) for DB2 on Cloud service.
 The client can be used as part of a Node.js application or as a CLI tool.
 
-The target APIs are covering the following main areas: authentication, database objects, data load, SQL, file storage, monitoring, settings, users administration.
+As APIs de destino cobrem as seguintes áreas principais: autenticação, objetos de banco de dados, carga de dados, SQL, armazenamento de arquivos, monitoramento, configurações, administração de usuários.
 
 - [Installation & Usage](#installation--usage)
     - [Node.js Application](#nodejs-application)
